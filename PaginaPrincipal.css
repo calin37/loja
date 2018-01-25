@@ -1,0 +1,320 @@
+
+
+body{   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; margin:0px; }
+
+/*******************************************************Header*************************************************/
+
+
+
+/*****************Logo e Nome 1º DIV********************/
+
+
+.headerdiv1{width: 100%;
+            height: 100px;
+            margin:auto;
+            background-color: Black;
+            overflow:hidden;
+            position:relative; }
+
+h1.title {background-image: url('oga.png');
+          background-repeat: no-repeat;
+          background-position: left center;
+          background-size: 1.5em;
+          padding-left: 1.5em;
+          margin-left:185px;
+          width:30%;}    
+
+.title{margin:0px;
+       color:White;
+       float:left;
+       padding-top:25px;
+       font-family:'Aldrich';
+       font-size:250%;
+       width: 22%;  }
+      
+      
+.logo{width:5%;
+      padding-top:10px;
+      margin-left:185px;
+      float: left;   }
+
+
+/***********Pesquise aqui + lupa e  carrinho*********/
+.cartproc{overflow: hidden;
+          width:50%;}
+
+.procure:hover{background-color:white;}
+.procure{color:black;
+         float: right;
+         border: 2px solid grey;
+         border-radius:30px;
+         background-color:#DDD7D7;
+         margin-right:30em;
+         margin-top:30px;
+         padding:6px 250px 4px 15px;
+         width:9em;}
+
+.cart{float: right;
+      width:2.5em;
+      margin-top:20px;
+    }     
+    
+@media screen and (max-width: 1920px){.procure{margin-right:20em;}}
+
+@media screen and (max-width: 1700px){.procure{margin-right: 10em;}
+                                       h1.title{margin-left: 0px;}
+                                    }
+@media screen and (max-width: 1500px){.procure{margin-right:6em;}
+                                    }                                 
+@media screen and (max-width: 1400px){.procure{margin-right:10em;}
+                                    }
+@media screen and (max-width: 1300px){.cartproc{width: 55%;}}                                   
+@media screen and (max-width: 1170px){.cartproc{width: 55%;}.procure{margin-right:2em;} }                                                                    
+@media screen and (max-width: 1000px){
+                                    .headerdiv1{height: 150px;}
+    h1.title{width:30%;margin:auto;float:none;}
+    .cartproc{margin:auto;width: 65%;}
+    .procure{width:auto;margin:auto; padding: 4px 220px 4px 15px;}
+     .cart{padding-left:10px;margin-right: 3em;margin-top:0px;width:2em;}}
+     
+@media screen and (max-width: 900px){.headerdiv1{height: 150px;}
+                                     h1.title{width:52%;margin:auto;float:none;}
+                                    .cartproc{margin:auto;width: 58%;}
+                                    .procure{width:auto;margin:auto; padding: 4px 220px 4px 15px;}
+                                    .cart{padding-left:10px;margin-right: 3em;margin-top:0px;width:2em;}}
+@media screen and (max-width: 765px){.headerdiv1{height: 150px;}
+                                     h1.title{width:52%;margin:auto;float:none;}
+                                    .cartproc{margin:auto;width: 75%;}
+                                    .procure{width:auto;margin:auto; padding: 4px 220px 4px 15px;}
+                                    .cart{padding-left:10px;margin-right: 3em;margin-top:0px;width:2em;}}                                    
+@media screen and (max-width: 600px){.headerdiv1{height: 150px;}
+                                     h1.title{width:85%;margin:auto;float:none;}
+                                    .cartproc{margin:auto;width: 85%;}
+                                    .procure{width:auto;margin:auto; padding: 4px 220px 4px 15px;}
+                                    .cart{padding-left:10px;margin-right: 3em;margin-top:0px;width:2em;}}                                       
+@media screen and (max-width: 525px){ .cartproc{font-size: 14px;} }
+@media screen and (max-width: 525px){ .cartproc{font-size: 12px;} }
+@media screen and (max-width: 525px){ .cartproc{font-size: 11px;} }
+@media screen and (max-width: 450px){ .cartproc{font-size: 10px;} }
+@media screen and (max-width: 415px){ .title{font-size: 35px;} }
+@media screen and (max-width: 436px){ .cartproc{font-size: 8px;} }
+@media screen and (max-width: 407px){ .cartproc{font-size: 6px;} }
+
+                                    
+
+/*******2 DIV Menu lado Esquerdo ******/      
+           
+.menunav{width:40%;
+         padding-top:35px;
+         margin-left:200px;  }
+
+
+.menunav a{color:white;
+           margin-right:45px;
+           text-align: center;   }
+
+.menunav a:hover{padding-bottom:15px;
+                 border-bottom: 2px solid  #ff7f27; }
+
+@media screen and (max-width: 1550px){.menunav a{color:white;
+                                    margin-right:25px;
+                                    text-align: center;} }
+@media screen and (max-width: 1295px){.menunav{width: 50%;margin-left:100px;}  }
+
+@media screen and (max-width: 1095px){ .menunav{width: 50%;margin-left:50px;} .menunav a{margin-right:15px;}  }
+@media screen and (max-width: 950px){.menunav a{display: block; margin:0px; margin-top:5px;}.menunav a:hover{padding-bottom:0; border-bottom: 2px solid  #ff7f27; }  .menunav{width:35%;padding-top:25px;}}
+@media screen and (max-width: 525px){.a1{position:relative;bottom:2em;left:4.5em;}.a2{position:relative;top:2em;right:2em;}.menunav{position: relative;bottom:1em;}}
+@media screen and (max-width: 420px){.menunav{left:0.5em;font-size:15px;}}
+@media screen and (max-width: 400px){.menunav{left: 1em;font-size:13px;}}
+/************+ Login e Registo******/
+  
+      
+.dadLogReg{ height: 100px;
+            background-color:#67676d;
+            position: relative;
+            width: 100%; }
+@media screen and (max-width: 950px){.dadLogReg{height: 150px;}}     
+            
+
+.LogReg a { color:white;
+            list-style-type:none;   }
+
+.LogReg {   float: right;
+            padding-top:40px;
+            margin-right:280px; }
+
+            
+            
+@media screen and (max-width: 1295px){.LogReg{margin-right:120px;  }}
+@media screen and (max-width: 950px){.LogReg{margin-right:60px;margin-top:20px}}
+@media screen and (max-width: 500px){.LogReg{margin-right:40px;margin-top:20px}}
+@media screen and (max-width: 440px){.menunav{right: 1em;}.LogReg{position:relative;left:3em;padding-top:40px;}}
+.a1:hover {background-color: #ff7f27;}
+.a1{  border: 2px solid #ff7f27;
+      border-radius:30px;
+      padding:7px 20px;
+      margin-right:10px;   }
+    
+.a2:hover{background-color:#ff7f27;}
+.a2{ border: 2px solid #ff7f27;
+     border-radius:30px;
+     padding:7px 20px; }
+   
+
+
+/*******************************************************Main PRIMEIRO DIV***********************************************************/
+.divdomaindiv1{overflow: hidden; margin-top:50px;}
+
+.maindiv1 h1{color: #ff7f27;
+            margin:0px 280px 0px 200px;
+            width: 14em}
+.maindiv1{  background-color: #113E52;
+            height: 300px;
+            padding-top:100px;
+            width:100%; }
+
+.barra1{background-color:white;
+        height: 20px;}
+
+.p1{color:white;
+    margin:0px 280px 0px 200px;
+    width: 25%;
+    float: left;}
+
+.pc1{float: right;
+    position: relative;
+    bottom: 6em;
+    right: 28em;
+    width: 24.5em;}
+@media screen and (max-width: 1600px){.pc1{bottom:3em;right: 17em;width: 19.5em}}
+@media screen and (max-width: 1250px){.maindiv1 h1{margin-right:0;margin-left:100px;}.p1{margin-left:100px;margin-right:0;}.pc1{right: 12em;}}
+@media screen and (max-width: 1130px){.maindiv1 h1{font-size:23px;}.pc1{bottom:2em;right: 7em;width: 15.5em}}
+@media screen and (max-width: 800px) {.maindiv1 h1{font-size:19px;}.maindiv1 h1{margin-left:50px;}.p1{margin-left:50px;width:150px;}}
+@media screen and (max-width: 700px) {.pc1{bottom: 2em;right: 5em;width: 13.5em;}.divdomaindiv1{margin:0;}}
+@media screen and (max-width: 600px) {.maindiv1 h1{margin-left:15px;font-size:15px;}.p1{margin-left:15px;}}
+@media screen and (max-width: 550px) {.pc1{bottom: 3em;right: 2em;}}
+@media screen and (max-width: 480px) {.maindiv1{padding-top:20px;}.pc1{top:7em;right:9em;width: 10.5em;}.divdomaindiv1{width:300px;position: relative;left:5em;}.p1{width:295px;}.maindiv1 h1{font-size:21px;}}
+@media screen and (max-width: 468px) {.divdomaindiv1{bottom:10em;}}
+@media screen and (max-width: 400px) {.divdomaindiv1{left:3em;}.pc1{right:6em;}}
+/******************************************************MAIN DIV DO MEIO**************************************************/
+.divdomaindiv{float: right; margin-top:50px;}
+
+.maindiv{   background-color: #AB4E2F;
+            height: 300px;
+            padding-top:100px;
+            width: 100%}
+
+.maindiv h1 {color: black;
+            margin:0px 280px 0px 200px;
+            }
+
+.p2{color:white;
+    margin:0px 280px 0px 200px;
+     }
+
+.tablet{width: 20em;
+        position: relative;
+        bottom:4em;
+        left:14em; }
+@media screen and (max-width: 1600px){.tablet{bottom:3em;left: 7em;width: 19.5em}.maindiv h1{margin-right:120px;}.p2{margin-right:120px; }}
+@media screen and (max-width: 1300px){.maindiv h1{margin-left:0;margin-right:100px;}.p2{margin-right:50px;margin-left:0;width:300px;}.tablet{right: 7em;}.divdomain{width:50%;}}
+@media screen and (max-width: 1200px){.maindiv h1{font-size:23px;}.tablet{bottom:2em;left:7em;width: 15.5em}.divdomaindiv{width:50%;}p2{margin-right:0px;margin-left:0;width:25%;}}
+@media screen and (max-width: 800px) {.maindiv h1{font-size:19px;}.maindiv h1{margin-right:50px;}.p2{margin-right:50px}}        
+@media screen and (max-width: 700px) {.tablet{bottom: 2em;left: 3em;width: 14.5em;}.divdomaindiv{margin-top:35px;}}
+@media screen and (max-width: 600px) {.maindiv h1{font-size:15px;}.tablet{left:0;width:12em;}.divdomaindiv{margin-right: 50px;}}
+@media screen and (max-width: 485px) {.maindiv{padding-top:25px;}.tablet{left:8em;width: 12em;top:7em;}.divdomaindiv{width: 290px;margin: 0px;position:relative;right: 5em;}}
+@media screen and (max-width: 480px) {.divdomaindiv{bottom:11em;}.maindiv h1{font-size: 21px;}}
+@media screen and (max-width: 380px) {.tablet{left:5em;}.divdomaindiv{right:2em;}}
+/******************************************************Main ULTIMO DIV**************************************************/
+.barra2{background-color: white;
+        height: 20px;}
+
+
+
+.finaldiv{background-color: #7e8596;
+          height: 200px;
+           }
+
+.finaldiv h1 { width: 6.5em;
+               margin: auto;
+               border:3px solid white;
+               border-radius: 40px;
+               padding:10px;
+               font-size: 200%;
+               text-align: center;}
+.finalnav{height:200px;
+          width: 100%;
+          padding-top:60px;}
+
+
+/******************************************************Footer**************************************************/
+
+/*****************Top footer************/
+.div1{  background-color:black;
+        color:White;
+        border:0px;
+        width:100%;
+        float:left;
+        font-family:'Aldrich';
+        font-size:15px; } 
+
+.botlinha p{  font-size:140%; }
+.botlinha{position:relative;
+          top:1em;}                                   
+.botlogo{width: 3em;
+         float:left;
+         margin:10px 0px 0px 185px;
+         position: relative;
+         bottom:2em;}
+@media screen and (max-width: 535px) {.botlinha{right: 2em;}}
+@media screen and (max-width: 470px) {.botlinha{right: 4em;font-size:14px;}}
+@media screen and (max-width: 420px) {.botlinha{right: 6em;}}
+@media screen and (max-width: 385px) {.botlinha{right: 7em;font-size:13px;}}
+/*****************Bottom footer********/
+.footerdiv{background-color: #67676d;
+        height: 250px; }
+
+
+
+ul{ float:left;
+    padding-left:330px;
+    margin-top:40px; }
+
+.ul1 li{list-style-type: none;
+        margin-right: 5px; float:left;
+        border-right: 1px solid grey;
+        padding-right:5px;
+        margin-top:35px;}
+
+.ul2 li{list-style-type: none;
+        margin-right: 20px;
+        float:left;
+        height:40px;
+        padding-top:35px;}
+
+
+.ul1 li:hover {background-color: #595050;}
+
+.Facebook{background-image: url("facebook.png");   background-repeat: no-repeat;}
+
+.Twitter{background-image: url("twitter.png");   background-repeat: no-repeat;}
+
+.Youtube{background-image: url("youtube.png");   background-repeat: no-repeat;}
+
+.LinkedIn{background-image: url("linkdin.png");   background-repeat: no-repeat;}
+
+@media screen and (max-width: 1550px) {ul{padding-left:190px; }}
+@media screen and (max-width: 1550px) {ul{padding-left:110px; }}
+@media screen and (max-width: 1150px) {ul{padding-left:40px;} .footerdiv{height:270px;}}
+@media screen and (max-width: 970px) {.footerdiv{height:270px;}.ul1{position: relative;left:10em;margin:0;padding: 0;}.ul2{position: relative;right: 17em;margin:0;padding-top: 25px;top:5em}}
+@media screen and (max-width: 928px) {.ul2{left:17em;top:2em;}}
+@media screen and (max-width: 800px) {.ul1{position: relative;left:5em;margin:0;padding: 0;}.ul2{position: relative;left:11em;margin:0;padding-top: 25px;}}
+@media screen and (max-width: 650px) {.ul1{left:2em}}
+@media screen and (max-width: 600px) {.ul1{left:1em;}.ul2{left:7em;}}
+@media screen and (max-width: 590px) {.ul1{left:1.5em;font-size: 15px;}.ul2{font-size:15px;}}
+@media screen and (max-width: 560px) {.ul1{left:3.5em;font-size: 13px;}.ul2{font-size:13px;left:9em;}}
+@media screen and (max-width: 520px) {.ul1{left:2em;font-size: 13px;}.ul2{font-size:13px;left:8em;}}
+@media screen and (max-width: 500px) {.ul1{left:1em;font-size: 13px;}.ul2{font-size:13px;left:7em;}}
+@media screen and (max-width: 480px) {.ul1{left:3em;font-size: 11px;}.ul2{font-size:11px;left:8em;}}
+@media screen and (max-width: 440px) {.ul1{left:1em;font-size: 11px;}.ul2{font-size:11px;left:7em;}}
+@media screen and (max-width: 415px) {.ul1{left:0.3em;font-size: 10px;}.ul2{font-size:10px;left:6em;}}
